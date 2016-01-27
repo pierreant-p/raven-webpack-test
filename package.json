@@ -1,0 +1,8 @@
+{
+  "name": "raven-webpack-test",
+  "dependencies": {
+    "raven-js": "^2.1.0",
+    "webpack": "^1.12.12"
+  },
+  "devDependencies": {}
+}
