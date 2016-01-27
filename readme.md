@@ -4,6 +4,8 @@ This is a test to demonstrate that Sentry will fail to report some errors when b
 
 # Running the test
 
-> npm install
-> npm install webpack -g
-> webpack index.js bundle.js
+```
+npm install;
+npm install webpack -g;
+webpack index.js bundle.js;
+```
