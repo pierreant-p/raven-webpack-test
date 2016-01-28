@@ -8,4 +8,10 @@ This is a test to demonstrate that Sentry will fail to report some errors when b
 npm install;
 npm install webpack -g;
 webpack index.js bundle.js;
+
+# eval sourcemaps
+webpack index.js bundle-eval.js --devtool eval;
+
+# source sourcemaps
+webpack index.js bundle-eval.js --devtool source-map;
 ```
